@@ -17,18 +17,30 @@ ________________________________________________________________________________
 ## Goodreads Reviews Data :books:
 For our project, we explored reviews for 1,000 books on Goodreads. We aim to create a generated review based on the reviews for each book.
 
-### Research Question
+### Problem Statement
+
+### Research Question:
 _Can machine learning models effectively summarize multiple book reviews into a coherent, opinion-based summary?_
 
 ______________________________________________________________________________________________
 ### Data:
 Download the raw scraped data from kaggle [here](https://www.kaggle.com/datasets/beridzeg45/book-reviews/data). 
 
-Or use our instance [`Book Reviews.csv`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/data/Book-Reviews.csv).
+Or use our instance [`Book Reviews.csv`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/data/Book%20Reviews.csv.zip).
+
+______________________________________________________________________________________________
+### Notebooks:
+[`NGRAMS_NLP.ipynb`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/src/NGRAMS_NLP.ipynb): Summarization using NGrams. 
+
+[`CLUSTERING_NLP.ipynb`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/src/CLUSTERING_NLP.ipynb): Summarization using KNN Clustering.
+
+[`BART_NLP.ipynb`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/src/BART_NLP.ipynb): Summarization using BART Transformer.
+
+[`PEGASUS_NLP.ipynb`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/src/PEGASUS_NLP.ipynb): Summarization using PEGASUS Transformer.
 
 ______________________________________________________________________________________________
 ### How to run: :pencil2:
-1. Download the data [`Book Reviews.csv`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/data/Book-Reviews.csv)
+1. Download the data [`Book Reviews.csv`](https://github.com/caoimhegall/CBS-NLP-Final/blob/main/data/Book%20Reviews.csv.zip)
 2. Download the modeling Notebooks
 3. Change the import to match your path for `Book Reviews.csv`
 
