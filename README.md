@@ -15,9 +15,7 @@ Paula Gattner _(176172)_: [@pa-ga](https://www.github.com/pa-ga), paga24ae@stude
 ______________________________________________________________________________________________
 
 ## Goodreads Reviews Data :books:
-For our project, we explored reviews for 1,000 books on Goodreads. We aim to create a generated review based on the reviews for each book.
-
-### Problem Statement
+For our project, we explored reviews for 1,000 books on Goodreads. We aim to create a generated review trained on the reviews for each book. We also explore if extractive or abstractive summarization better generates coherent opinion-based summaries.
 
 ### Research Question:
 _Can machine learning models effectively summarize multiple book reviews into a coherent, opinion-based summary?_
